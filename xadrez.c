@@ -42,9 +42,6 @@ int main() {
     } while(contador_rainha < casas_rainha);
     
     
-    return 0;
-}
-    
     
     
     
