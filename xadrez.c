@@ -58,7 +58,19 @@ void moverCavaloComplexo() {
     
     for (int etapa = 0; etapa < casas_cima + casas_direita; etapa++) {
 
+        int movimento_realizado = 0;
+        
+        int tentativas = 0;
+        while (tentativas < 3 && !movimento_realizado) {
+            tentativas++;
 
+            if (etapa < casas_cima && !movimento_realizado) {
+                printf("Cima\n");
+                movimento_realizado = 1;
+                movimento_completo++;
+                continue; // Continua para próxima iteração do for
+            }
+            
 
 
 
