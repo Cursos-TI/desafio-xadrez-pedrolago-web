@@ -68,11 +68,34 @@ void moverCavaloComplexo() {
                 printf("Cima\n");
                 movimento_realizado = 1;
                 movimento_completo++;
-                continue; // Continua para próxima iteração do for
+                continue; 
             }
+
+            if (etapa >= casas_cima && etapa < casas_cima + casas_direita && !movimento_realizado) {
+                
+                if (movimento_completo >= casas_cima) {
+                    printf("Direita\n");
+                    movimento_realizado = 1;
+                    movimento_completo++;
+                    break; 
+                } else {
+                    
+                    continue;
+                }
+            }
+        }
+
+        if (etapa == casas_cima - 1) {
             
+            continue;
+        }
+    }
+}
 
-
+int main() {
+    int casas_torre = 5;
+    int casas_bispo = 5;
+    int casas_rainha = 8;
 
 
 
