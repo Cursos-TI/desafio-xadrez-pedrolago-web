@@ -23,10 +23,19 @@ void moverBispo(int casas) {
     
     printf("Cima, Direita\n");
     
-    
     moverBispo(casas - 1);
 }
 
+void moverRainha(int casas) {
+    
+    if (casas <= 0) {
+        return;
+    }
+    
+    printf("Esquerda\n");
+    
+    moverRainha(casas - 1);
+}
 
 
 
