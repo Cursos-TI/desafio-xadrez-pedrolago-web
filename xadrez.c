@@ -12,18 +12,32 @@ void moverTorre(int casas) {
     
     printf("Direita\n");
 
+    moverTorre(casas - 1);
+}
+
+void moverBispo(int casas) {
     
-
-
-
-
-
-
-
-
-
-
-
+    if (casas <= 0) {
+        return;
+    }
     
+    printf("Cima, Direita\n");
+    
+    
+    moverBispo(casas - 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
