@@ -23,12 +23,22 @@ int main() {
         printf("Direita\n");
     }
 
+    //Bispo: 
+    printf("\nMovimento do Bispo:\n");
+    int casas_bispo = 5;
+    int contador_bispo = 0;
+    while(contador_bispo < casas_bispo) {
+        printf("Cima, Direita\n");
+        contador_bispo++;
+    }
+
+    
     
 
 
 
 
-    
+
 
     return 0;
 }
