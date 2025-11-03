@@ -42,17 +42,6 @@ int main() {
     } while(contador_rainha < casas_rainha);
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
