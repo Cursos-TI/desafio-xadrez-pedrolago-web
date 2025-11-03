@@ -32,14 +32,16 @@ int main() {
         contador_bispo++;
     }
 
+    //Rainha:
+    printf("\nMovimento da Rainha:\n");
+    int casas_rainha = 8;
+    int contador_rainha = 0;
+    do {
+        printf("Esquerda\n");
+        contador_rainha++;
+    } while(contador_rainha < casas_rainha);
     
     
-
-
-
-
-
-
     return 0;
 }
     
