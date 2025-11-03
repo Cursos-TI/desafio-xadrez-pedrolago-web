@@ -97,9 +97,20 @@ int main() {
     int casas_bispo = 5;
     int casas_rainha = 8;
 
-
-
-
+    printf("Movimento da Torre (Recursivo):\n");
+    moverTorre(casas_torre);
+    
+    printf("\nMovimento do Bispo (Recursivo):\n");
+    moverBispo(casas_bispo);
+    
+    printf("\nMovimento da Rainha (Recursivo):\n");
+    moverRainha(casas_rainha);
+    
+    printf("\n");
+    moverBispoLoopsAninhados(casas_bispo);
+    
+    printf("\n");
+    moverCavaloComplexo();
 
     return 0;
 }
